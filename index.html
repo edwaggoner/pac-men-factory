@@ -13,16 +13,24 @@
 <body>
 	<script src="./pacmen.js"></script>
 
-	<div id='game'>
-        <button class='button1' onclick='makeOne()'>Add PacMan</button>
-        <button class='button2' onclick='update(); chomp()'>Start Game</button>
+	<div id="container">
+		<!-- <div id='game'> -->
+			<button class='button' onclick='makeOne()'>Add PacMan</button>
+			<button class='button' onclick='update(); chomp()'>Start Game</button>
+		<!-- </div> -->
+	</div>
 
-    </div>
+    <div id="images">
+
+	</div>
 
 	<style>
-		.button1 {
-			position: relative;
-			left: 40%;
+		#container {
+			display: flex;
+			justify-content: space-evenly;
+		}
+
+		.button {
 			width: 175px;
 			height: 70px;
 			background-color: gray;
@@ -32,22 +40,13 @@
 			color: yellow;
 		}
 
-		.button2 {
-			position: relative;
-			left: 44%;
-			width: 175px;
-			height: 70px;
-			background-color: gray;
-			border-radius: 25%;
-			font-family: 'Ubuntu', sans-serif;
-			font-size: 24;
-			color: yellow;
-
-		}
-
-		#game img {
+		#images img {
 			position: absolute;
 			z-index: -1;
+		}
+
+		body {
+			background-color: black;
 		}
 	</style>
 

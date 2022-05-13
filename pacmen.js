@@ -14,18 +14,18 @@ function setToRandom(scale) {
 }
 // Factory to make a PacMan
 function makePac() {
-  // returns an object with values scaled {x: 33, y: 21}
+  // returns an object with values scaled
   let velocity = setToRandom(10);
   let position = setToRandom(200);
-  // Add image to div id = game
-  let game = document.getElementById('game');
+  // Add image to div id = images
+  let images = document.getElementById('images');
   let newimg = document.createElement('img');
   newimg.style.position = 'absolute';
   newimg.src = 'images/pacman1.png';
   newimg.width = 100;
   newimg.style.left = position.x;
   newimg.style.top = position.y;
-  game.appendChild(newimg);
+  images.appendChild(newimg);
   // new style of creating an object
   return {
       position,
@@ -46,7 +46,7 @@ function chomp() {
     item.newimg.src = 'images/pacman3.png';
   }
   })
-  setTimeout(chomp, 250);
+  setTimeout(chomp, 325);
 }
 
 function update() {
