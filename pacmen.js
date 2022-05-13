@@ -34,6 +34,21 @@ function makePac() {
   }
 }
 
+function chomp() {
+  pacMen.forEach((item) => {
+  if (item.newimg.src.match('images/pacman1.png$')) {
+    item.newimg.src = 'images/pacman2.png';
+  } else if (item.newimg.src.match('images/pacman2.png$')) {
+    item.newimg.src = 'images/pacman1.png';
+  } else if (item.newimg.src.match('images/pacman3.png$')) {
+    item.newimg.src = 'images/pacman4.png';
+  } else if (item.newimg.src.match('images/pacman4.png$')) {
+    item.newimg.src = 'images/pacman3.png';
+  }
+  })
+  setTimeout(chomp, 250);
+}
+
 function update() {
   //loop over pacmen array and move each one and move image in DOM
   pacMen.forEach((item) => {
@@ -43,16 +58,28 @@ function update() {
 
       item.newimg.style.left = item.position.x;
       item.newimg.style.top = item.position.y;
-  })
-  setTimeout(update, 20);
-}
 
-function checkCollisions(item) {
-  if (item.position.x + item.velocity.x + item.newimg.width > window.innerWidth ||
-      item.position.x + item.velocity.x < 0) item.velocity.x = -item.velocity.x;
-  if (item.position.y + item.velocity.y + item.newimg.height > window.innerHeight ||
-      item.position.y + item.velocity.y < 0) item.velocity.y = -item.velocity.y;
-}
+    })
+    setTimeout(update, 20);
+  }
+
+  function checkCollisions(item) {
+    if (item.position.x + item.velocity.x + item.newimg.width > window.innerWidth) {
+      item.newimg.src = 'images/pacman3.png';
+      item.velocity.x = -item.velocity.x;
+    }
+
+    if (item.position.x + item.velocity.x < 0) {
+      item.newimg.src = 'images/pacman1.png';
+      item.velocity.x = -item.velocity.x;
+    }
+
+    if (item.position.y + item.velocity.y + item.newimg.height > window.innerHeight ||
+      item.position.y + item.velocity.y < 0) {
+      item.velocity.y = -item.velocity.y;
+    }
+
+  }
 
 function makeOne() {
   pacMen.push(makePac()); // add a new PacMan
