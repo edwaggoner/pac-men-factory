@@ -1,24 +1,32 @@
-# <img src='https://github.com/edwaggoner/responsive-eyes/blob/main/MIT%20xPRO%20vertical%20logo.png' alt='MIT xPro logo' width='30'> Responsive Eyes | *A Bootcamp Project*
+# <img src='https://github.com/edwaggoner/responsive-eyes/blob/main/MIT%20xPRO%20vertical%20logo.png' alt='MIT xPro logo' width='30'> Pac-Men Factory | *A Bootcamp Project*
 
 ## About
-This is a project that I developed in Week 4 of MIT xPro Bootcamp. MIT provided starter code for one eye.
+This is a project that I developed in Week 4 of MIT xPro Bootcamp. MIT provided starter code that included unstyled "Add PacMan" and "Start Game" buttons and placed one motionless PacMan on the screen.
 
 >**Skills Highlighted**:
 1. Bind DOM elements to mouse events.
-2. Use JavaScript, HTML, and CSS to set web page styles.
+2. Use JavaScript to dynamically display data on a web page.
+3. Create an animated effect by toggling images.
+4. Use JavaScript, HTML, and CSS to set web page styles.
 
 >**Assignment Tasks**:
-1. Add a second eye.
-2. Make both eyes follow the mouse position on the screen.
+1. Make a new PacMan appear at a random position on the screen when user clicks the "Add PacMan" button.
+2. Make each PacMan that is created start moving at a random velocity when user clicks the "Start Game" button.
+3. Make each PacMan appear to be chomping as it moves across the screen.
+4. Make each PacMan bounce upon impact with the top/bottom edge of the screen.
+5. Make each PacMan reverse direction when it hits the left/right edge of the screen.
+6. Make the face of each PacMan align with its current direction along the horizontal axis.
 
-## How to Run
-Move your mouse and see the eyes follow!
+## How to Run <img src='https://github.com/edwaggoner/pac-men-factory/blob/main/Pac-men-thumbnail3.png' alt='PacMen logo' width='30'>
+1. Click the "Add PacMan" button to place an initial PacMan on the screen. Create as many initial PacMen as you wish.
+2. Click the "Start Game" button once to set your PacMan (or PacMen) in motion.
+3. Each further click of the "Add PacMan" button will add another PacMan that will move immediately.
 
 ## Future Improvements
-- [ ] Make pupils of the eyes go in circles when mouse position is between the eyes.
-- [ ] Make pupil of an eye roll in a circle when mouse position is on that eye. 
-- [ ] Add eyebrows that respond to mouse input.
-- [ ] Add and style a nose.
+- [ ] Make the "Add PacMan" button select randomly from a set of differently styled PacMen.
+- [ ] Add a button that increases the velocity of the PacMen on the screen.
+- [ ] Replace the "Start Game" button with one that toggles between "Play" and "Pause".
+- [ ] Style the playing field with a background image.
 
 ## License
 
