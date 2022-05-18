@@ -17,6 +17,11 @@ This is a project that I developed in Week 4 of MIT xPro Bootcamp. MIT provided 
 5. Make each PacMan reverse direction when it hits the left/right edge of the screen.
 6. Make the face of each PacMan align with its current direction along the horizontal axis.
 
+>**Custom Features**:
+1. Added CSS flexbox positioning for the "Add PacMan" and "Start Game" buttons.
+2. Styled the ccolor, shape, and text of the "Add PacMan" and "Start Game" buttons."
+3. Made the PacMen move under, rather than across, the buttons.
+
 ## How to Run <img src='https://github.com/edwaggoner/pac-men-factory/blob/main/Pac-men-thumbnail3.png' alt='PacMen logo' width='30'>
 1. Click the "Add PacMan" button to place an initial PacMan on the screen. Create as many initial PacMen as you wish.
 2. Click the "Start Game" button once to set your PacMan (or PacMen) in motion.
