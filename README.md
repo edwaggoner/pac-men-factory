@@ -25,7 +25,7 @@ This is a project that I developed in Week 4 of MIT xPro Bootcamp. MIT provided 
 ## How to Run <img src='https://github.com/edwaggoner/pac-men-factory/blob/main/Pac-men-thumbnail3.png' alt='PacMen logo' width='30'>
 1. Click the "Add PacMan" button to place an initial PacMan on the screen. Create as many initial PacMen as you wish.
 2. Click the "Start Game" button once to set your PacMan (or PacMen) in motion.
-3. Each further click of the "Add PacMan" button will add another PacMan that will move immediately.
+3. Each further click of the "Add PacMan" button will add another PacMan that is immediately in motion.
 
 ## Future Improvements
 - [ ] Make the "Add PacMan" button select randomly from a set of differently styled PacMen.
