@@ -35,7 +35,7 @@ This is a project that I developed in Week 4 of MIT xPro Bootcamp. MIT provided 
 
 ## License
 
-Copyright (c) 2022 Ed Waggoner
+Copyright © 2022 Ed Waggoner
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
