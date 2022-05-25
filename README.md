@@ -1,4 +1,4 @@
-# <img src='https://github.com/edwaggoner/pac-men-factory/blob/main/MIT-xPRO-vertical-logo.png' alt='MIT xPro logo' width='30'> Pac-Men Factory | *A Bootcamp Project*
+# <img src='https://github.com/edwaggoner/pac-men-factory/blob/main/images/MIT-xPRO-vertical-logo.png' alt='MIT xPro logo' width='30'> Pac-Men Factory | *A Bootcamp Project*
 
 ## About
 This is a project that I developed in Week 4 of MIT xPro Bootcamp. MIT provided starter code that included unstyled "Add PacMan" and "Start Game" buttons and placed one motionless PacMan on the screen.
@@ -22,7 +22,7 @@ This is a project that I developed in Week 4 of MIT xPro Bootcamp. MIT provided 
 2. Styled the color, shape, and text of the "Add PacMan" and "Start Game" buttons."
 3. Made the PacMen move under, rather than across, the buttons.
 
-## How to Run <img src='https://github.com/edwaggoner/pac-men-factory/blob/main/Pac-men-thumbnail3.png' alt='PacMen logo' width='30'>
+## How to Run <img src='https://github.com/edwaggoner/pac-men-factory/blob/main/images/Pac-men-thumbnail3.png' alt='PacMen logo' width='30'>
 1. Click the "Add PacMan" button to place an initial PacMan on the screen. Create as many initial PacMen as you wish.
 2. Click the "Start Game" button once to set your PacMan (or PacMen) in motion.
 3. Each further click of the "Add PacMan" button will add another PacMan that is immediately in motion.
